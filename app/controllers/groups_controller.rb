@@ -3,6 +3,7 @@ class GroupsController < ApplicationController
 end
 
 class GroupsController < ApplicationController
+
   def index
       @groups = Group.all
     end
